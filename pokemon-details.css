@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .attack-type {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Colores de fondo para los tipos de ataque */
+  .attack-type.normal {
+    background-color: #a8a878;
+  }
+  
+  .attack-type.fighting {
+    background-color: #c03028;
+  }
+  
+  .attack-type.flying {
+    background-color: #a890f0;
+  }
+  
+  .attack-type.poison {
+    background-color: #a040a0;
+  }
+  
+  .attack-type.ground {
+    background-color: #e0c068;
+  }
+  
+  .attack-type.rock {
+    background-color: #b8a038;
+  }
+  
+  .attack-type.bug {
+    background-color: #a8b820;
+  }
+  
+  .attack-type.ghost {
+    background-color: #705898;
+  }
+  
+  .attack-type.steel {
+    background-color: #b8b8d0;
+  }
+  
+  .attack-type.fire {
+    background-color: #f08030;
+  }
+  
+  .attack-type.water {
+    background-color: #6890f0;
+  }
+  
+  .attack-type.grass {
+    background-color: #78c850;
+  }
+  
+  .attack-type.electric {
+    background-color: #f8d030;
+  }
+  
+  .attack-type.psychic {
+    background-color: #f85888;
+  }
+  
+  .attack-type.ice {
+    background-color: #98d8d8;
+  }
+  
+  .attack-type.dragon {
+    background-color: #7038f8;
+  }
+  
+  .attack-type.dark {
+    background-color: #705848;
+  }
+  
+  .attack-type.fairy {
+    background-color: #ee99ac;
+  }
+  
+  /* Resto de los estilos CSS */
+  
+  .card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .stats-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .stats-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .stats-list li span:first-child {
+    flex: 0 0 120px;
+  }
+  
+  .stat-bar {
+    flex: 1;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .stat-bar-fill {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .stat-value {
+    margin-left: 10px;
+  }
+  
+  .moves-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .moves-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .moves-list li .move-name {
+    flex: 1;
+  }
+  
+  .moves-list li .attack-type {
+    margin-left: 10px;
+  }
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.boton:hover {
+  background-color: #45a049;
+}
+
+.types-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .back-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #434643;
+  }
+  
+  .back-button:focus {
+    outline: none;
+  }
+
+  .fondo{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  }

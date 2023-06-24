@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li class="nav-item dropdown">
+        <a href="#" class="dropdown-btn">Tipos</a>
+        <div class="dropdown-content">
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="#" class="dropdown-btn2">Generaciones</a>
+        <div class="dropdown-content2">
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <h1>Pokémon Shop</h1>
+  <div class="row" id="pokemon-list">
+
+  </div>
+  <script>
+    if("serviceWorker" in navigator){
+      navigator.serviceWorker.register("sw.js")
+    }
+  </script>
+  <script src="dropdown.js"></script>
+</body>
+</html>
